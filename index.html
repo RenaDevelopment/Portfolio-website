@@ -6,8 +6,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kruiniger Communicatie - Portfolio</title>
         <link rel="stylesheet", href="style.css">
+        <link rel="stylesheet", href="mediaqueries.css">
     </head>
     <body>
         <script src="script.js"></script>
+        <div class="navbar">
+            <nav id="desktop-nav">
+                <div class="logo">
+                    Kruiniger Communicatie
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Over mij</a></li>
+                        <li><a href="#services">Diensten</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav id="mobile-nav">
+                <div class="logo">
+                    Kruiniger Communicatie
+                </div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="hamburger-menu-links">
+                            <li><a href="#" onclick="toggleMenu()">Home</a></li>
+                            <li><a href="#" onclick="toggleMenu()">Even kennismaken</a></li>
+                            <li><a href="#" onclick="toggleMenu()">Diensten</a></li>
+                            <li><a href="#" onclick="toggleMenu()">Portfolio</a></li>
+                            <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="/images/logo.png" alt="Foto van mezelf"/>
+            </div>
+            <div class="section_text">
+                <p class="section_text-p1">Hoi, ik ben</p>
+                <h1 class="name">Renato Kruiniger</h1>
+                <p class="section_text-p2">Software Engineer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/CV Renato 2022-12.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+                </div>
+                <div class="socials-container">
+                    <img src="/images/linkedin-logo.png" alt="Linkedin-profiel" class="icon" onclick="location.href='https://www.linkedin.com/in/renato-kruiniger-388738143/'"/>
+                    <img src="/images/github-logo.png" alt="Github-profiel" class="icon" onclick="location.href='https://github.com/RenaDevelopment'"/>
+                </div>
+            </div>
+
+        </section>
     </body>
 </html>
