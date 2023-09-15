@@ -7,6 +7,9 @@
         <title>Kruiniger Communicatie - Portfolio</title>
         <link rel="stylesheet", href="style.css">
         <link rel="stylesheet", href="mediaqueries.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
         <script src="script.js"></script>
@@ -47,15 +50,15 @@
         </div>
         <section id="profile">
             <div class="section_pic-container">
-                <img src="/images/logo.png" alt="Foto van mezelf"/>
+                <img src="/images/profile-pic.jpg" alt="Foto van mezelf"/>
             </div>
             <div class="section_text">
                 <p class="section_text-p1">Hoi, ik ben</p>
-                <h1 class="name">Renato Kruiniger</h1>
+                <h1 class="title">Renato Kruiniger</h1>
                 <p class="section_text-p2">Software Engineer</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('./assets/CV Renato 2022-12.pdf')">Download CV</button>
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+                    <button class="btn btn-color-1" onclick="window.open('./docs/cv.pdf')">Download CV</button>
+                    <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact</button>
                 </div>
                 <div class="socials-container">
                     <img src="/images/linkedin-logo.png" alt="Linkedin-profiel" class="icon" onclick="location.href='https://www.linkedin.com/in/renato-kruiniger-388738143/'"/>
@@ -63,6 +66,35 @@
                 </div>
             </div>
 
+        </section>
+        <section id="about">
+            <p class="section_text-p1">Get to know more!</p>
+            <h1 class="title">Over mij</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="images/profile-pic.jpg" alt="profile-pic" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="images/profile-pic.jpg" alt="ervaring-icon" class="icon">
+                            <h3>Ervaring</h3>
+                            <p>2+ Years<br>Front-end development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="images/profile-pic.jpg" alt="opleiding-icon" class="icon">
+                            <h3>Opleiding</h3>
+                            <p>BSc Bachelors degree<br>Gymnasium</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Doloremque sint debitis nihil est iusto culpa corporis libero nulla molestiae aut, 
+                            numquam accusantium laboriosam quam! Voluptates iure quas obcaecati error et.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="images/profile-pic.jpg" alt="Pijl omlaag" class="icon arrow" onclick="location.href='./#services'">
         </section>
     </body>
 </html>
