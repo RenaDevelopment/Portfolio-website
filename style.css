@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #F1F2EB;
+    background-color: #fdfcfc;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: #0A0F0F;
 }
@@ -87,7 +87,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #F1F2EB;
+    background-color: #fdfcfc;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -224,7 +224,7 @@ section {
 }
 .btn-color-1, .btn-color-2:hover {
     background: #08605F;
-    color: #F1F2EB;
+    color: #fdfcfc;
 }
 .btn-color-1:hover {
     background: none;
@@ -275,7 +275,7 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: #F1F2EB;
+    background: #fdfcfc;
     border-radius: 2rem;
     border: #0A0F0F 0.1rem solid;
     border-color: #0A0F0F;
@@ -287,3 +287,105 @@ section {
     height: 80%;
 }
 
+
+/* Diensten */
+
+#services {
+    position: relative;
+}
+
+.experience-subtitle {
+    color: #0A0F0F;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* Portfolio */
+
+#portfolio {
+    position: relative;
+}
+
+.color-container {
+    border-color: #08605F;
+    background: #fdfcfc;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: #0A0F0F;
+}
+
+.project-btn {
+    color: #0A0F0F;
+    border-color: #0A0F0F;
+}
+
+/* Contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border:#0A0F0F 0.1rem solid;
+    background: #fdfcfc;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+}
