@@ -389,3 +389,15 @@ article .icon {
     cursor: default;
     height: 2rem;
 }
+
+
+/* Footer */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
